@@ -1,0 +1,17 @@
+####################Botoes####################
+
+botao_login: .radius
+botao_fechar: .as-login-close.as-login-icon-close-circled
+botao_procurar_decolar: .btn-text
+botao_ida: .input-tag.sbox-checkin-date.-sbox-3-no-radius-right
+botao_volta: .input-tag.-sbox-3-no-radius-left.sbox-checkout-date
+
+###################Titles#####################
+
+title_decolar: .nevo-header-logo
+title_summary_decolar: .matrix-scales-summary
+
+###################Campos####################
+
+campo_origem_decolar: .input-tag.sbox-main-focus.sbox-origin.sbox-primary.sbox-places-first.sbox-origin-container.places-inline
+campo_destino_decolar: .input-tag.sbox-main-focus.sbox-destination.sbox-secondary.sbox-places-second.places-inline
