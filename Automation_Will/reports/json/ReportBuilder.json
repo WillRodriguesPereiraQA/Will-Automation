@@ -1,0 +1,159 @@
+[
+  {
+    "uri": "features/catalogo/MVP_3_Detalhes_Medidas.feature",
+    "id": "validar-presença-e-funcionamento-de-mensagens,-links-e-imagens.",
+    "keyword": "Funcionalidade",
+    "name": "Validar presença e funcionamento de mensagens, links e imagens.",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36316
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49737
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130659
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12941613818
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acesso a pagina de \"Móveis Planejados Pedido de Orçamento Cômodo\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/inicio.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13038216
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "eu clico no ambiente \"detalhe_imagem_servico\"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/moveis_planejados.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7551529968
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu clico no botao \"botao_proximo_lead\"",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/cadastro.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3210036860
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-presença-e-funcionamento-de-mensagens,-links-e-imagens.;validar-funcionalidade-do-campo-descrição-do-projeto-com-limite-de-450-caracteres---limite-de-caracteres",
+        "keyword": "Cenário",
+        "name": "Validar funcionalidade do campo descrição do projeto com limite de 450 caracteres - Limite de Caracteres",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@valida_inserir_450_caracteres",
+            "line": 15
+          },
+          {
+            "name": "@sessao_detalhes_medidas",
+            "line": 15
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "eu insiro no campo \"campo_description_mvp\" o valor \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem\"",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/detalhe_produto.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3556737359
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu clico no botao \"botao_proximo_detalhes_mvp\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/cadastro.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3221365859
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2325083822
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4732988937
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

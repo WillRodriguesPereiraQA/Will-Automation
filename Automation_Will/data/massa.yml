@@ -1,0 +1,26 @@
+########################Massa Randomica########################################
+randomEmail: FFaker::Internet.email
+fullName: FFaker::NameBR.name
+cpf: FFaker::IdentificationBR.cpf
+dddPhone: FFaker::PhoneNumberBR.country_code
+phone: FFaker::PhoneNumberBR.phone_number
+dddPhone2: FFaker::PhoneNumberBR.country_code
+phone2: FFaker::PhoneNumberBR.phone_number
+birthDay: 01
+birthMonth: 12
+birthYear: 1991
+email: FFaker::Internet.email.unique
+password: 'ViaVarejo2017'
+cep: FFaker::AddressBR.zip_code
+
+
+########################Dados Login Vitor######################################
+valido: user_automacao03112014_090630644@cnova.com
+valida: 123456
+incorreto: asljsa
+invalido: sasha@a.com
+invalida: ashklahs
+
+########################Dados Login Lucas######################################
+usuario_lucas: vinicius.rosa@cnova.com
+senha_lucas: teste2017
